@@ -1,0 +1,86 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.card{
+    display: flex;
+    flex-direction: column;  
+    background-color: #f2f2f2 ;
+    padding: 50px 70px;
+    border-radius: 15px;
+    gap: 10px;
+}
+.login__label{
+    display: flex;
+    padding: 5px 15px;
+    margin: 2px;
+
+}
+input {
+    
+    border-radius: 25px;
+    border: 1px solid #d9dad7;
+    padding: 5px 15px;
+    outline: none;
+    
+
+}
+.email{
+    display: flex;
+    flex-direction: row;
+    margin : 5px 10px ;
+    justify-content: space-evenly;
+    width: 100%;
+    gap : 13px
+}
+
+.password{
+    display: flex;
+    flex-direction: row;
+    margin : 5px  1px;
+    justify-content: space-evenly;
+    width: 100%;
+    gap : 7px;
+}
+
+button{
+    margin : 6px ;
+    padding: 5px 15px ;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    color : white ;
+    background-color: #1877F2;
+}
+.error{
+   
+    display: flex;
+    flex-direction: row;
+    background-color: #f06868;
+    padding: 5px 15px;
+    border-radius: 25px
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    margin : 5px  1px;
+    justify-content: space-evenly;
+    width: 100%;
+    gap : 27px;
+}
+
+.pass_criteria{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+    justify-content: first baseline;
+    font-size: x-small;
+    color : #393e46;
+    padding: 5px 10px;
+}

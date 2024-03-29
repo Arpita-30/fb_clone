@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+//import { createContext } from 'react';
 
-function App() {
+import Posts from "./Posts.js";
+import Login from "./Login.js";
+import Signup from "./Signup.js";
+import { SignpostOutlined } from "@mui/icons-material";
+// import Login from "./Login.js";
+// import { render } from "react-dom";
+//import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
+export default function App() {
+  // const myContext = React.createContext();
+  // const [user, setUser] = useState([
+  //   {
+  //     userName: '',
+  //     comments: [],
+  //     likedPosts: [],
+  //   },
+  // ]);
+  // const router = createBrowserRouter([
+  //   {
+  //     path: '/',
+  //     element: <Login />,
+  //     children: [
+  //       {
+  //         path: '/Posts',
+  //         element: <Posts />,
+  //       },
+  //     ],
+  //   },
+  // ]);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    // <myContext.provider value={{ user, setUser }}>
+    <div>
+      <Signup />
     </div>
+    // </myContext.provider>
   );
 }
-
-export default App;
